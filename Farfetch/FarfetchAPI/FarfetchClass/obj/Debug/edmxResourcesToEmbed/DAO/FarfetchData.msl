@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DB_FarfetchModelStoreContainer" CdmEntityContainer="DB_FarfetchEntities">
+    <EntitySetMapping Name="tabControlToggles">
+      <EntityTypeMapping TypeName="DB_FarfetchModel.tabControlToggle">
+        <MappingFragment StoreEntitySet="tabControlToggle">
+          <ScalarProperty Name="strValue" ColumnName="strValue" />
+          <ScalarProperty Name="strKey" ColumnName="strKey" />
+          <ScalarProperty Name="idVersion" ColumnName="idVersion" />
+          <ScalarProperty Name="idApplication" ColumnName="idApplication" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

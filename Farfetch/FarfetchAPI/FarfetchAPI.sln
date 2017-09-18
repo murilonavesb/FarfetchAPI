@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarfetchAPI", "FarfetchAPI\FarfetchAPI.csproj", "{30307F86-3D84-4174-8058-D224E1AC5D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FarfetchClass", "FarfetchClass\FarfetchClass.csproj", "{0F8FE8B8-F2BB-4A12-8BBD-29F4FC12DE4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30307F86-3D84-4174-8058-D224E1AC5D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30307F86-3D84-4174-8058-D224E1AC5D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30307F86-3D84-4174-8058-D224E1AC5D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30307F86-3D84-4174-8058-D224E1AC5D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8FE8B8-F2BB-4A12-8BBD-29F4FC12DE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8FE8B8-F2BB-4A12-8BBD-29F4FC12DE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8FE8B8-F2BB-4A12-8BBD-29F4FC12DE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8FE8B8-F2BB-4A12-8BBD-29F4FC12DE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

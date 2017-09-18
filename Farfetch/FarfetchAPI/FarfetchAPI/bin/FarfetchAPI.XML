@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FarfetchAPI</name>
+    </assembly>
+    <members>
+        <member name="T:FarfetchAPI.Controllers.IndexController">
+            <summary>
+            API de Prescricao
+            </summary>
+        </member>
+        <member name="M:FarfetchAPI.Controllers.IndexController.GetToggles(System.Int32,System.Int32)">
+            <summary>
+            Method to return toggles
+            </summary>
+            <param name="idApplication">ID of the application</param>
+            <param name="idVersion">ID of the version</param>
+            <returns>Return toggles</returns>
+        </member>
+        <member name="M:FarfetchAPI.Controllers.IndexController.SetToggles(System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            Method to set toggles
+            </summary>
+            <param name="idApplication">ID of the application</param>
+            <param name="idVersion">ID of the version</param>
+            <param name="strToggle">ID of the toggle</param>
+            <param name="value">Value of the toggle</param>
+            <returns>Return toggles</returns>
+        </member>
+    </members>
+</doc>
